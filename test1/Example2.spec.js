@@ -5,6 +5,8 @@ import { HomePage } from '../Pages/Home-page';
 //POM   
 const URL = 'https://playwright.dev/';
 let homePage;
+const para ='Playwright is distributed as a set of Maven modules. The easiest way to use it is to add one dependency to your project\'s pom.xml as described below. If you\'re not familiar with Maven please refer to its documentation.';
+       
 
 test.beforeEach(async ({page}) =>{
     await page.goto(URL);
@@ -39,7 +41,6 @@ test.describe('Playwright Website', ()=>{
         await page.getByText('Java', {exact:true}).click();
         await expect(page).toHaveTitle('Installation | Playwright Java');
         //Check the paragraph
-        const para ='Playwright is distributed as a set of Maven modules. The easiest way to use it is to add one dependency to your project\'s pom.xml as described below. If you\'re not familiar with Maven please refer to its documentation.';
         await expect(page.getByText(para)).toBeVisible();
     
     });    
