@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:e2e": "npx playwright test test1/",
-    "test:e2e:smoke" : "npx playwright test test1/ --grep @smoke --project=chromium"
-  },
+     },
   "keywords": [],
   "author": "",
   "license": "ISC",
