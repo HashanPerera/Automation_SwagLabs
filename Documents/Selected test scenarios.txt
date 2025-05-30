@@ -1,0 +1,7 @@
+Selected test scenarios,
+
+Login Test
+Add to Cart
+Remove from Cart
+Sort Products
+Checkout Flow
