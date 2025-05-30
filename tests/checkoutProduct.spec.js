@@ -1,5 +1,5 @@
 import { test,expect } from '@playwright/test';
-import { checkoutFormFilling, login, logout } from './helper';
+import { checkoutFormFilling, login, logout } from '../utils/helper';
 
 //variables
 const thankYou = 'Your order has been dispatched, and will arrive just as fast as the pony can get there!';

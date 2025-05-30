@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-import { login, logout } from './helper';
+import { login, logout } from '../utils/helper';
 
 //variables
 const productText = 'Sauce Labs Fleece JacketIt\'s';

@@ -1,6 +1,5 @@
 import {test, expect} from '@playwright/test';
-import { login, logout } from './helper';
-import { selectItem, addItemToCart } from './helper';
+import { login, logout, selectItem, addItemToCart } from '../utils/helper';
 
 //variables
 const itemName1 =  'Test.allTheThings() T-Shirt (Red)';

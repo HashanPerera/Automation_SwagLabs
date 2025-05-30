@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { login, logout } from './helper';
+import { login, logout } from '../utils/helper';
 
 //Login Test - Input username and password, Validate login success or failure
 test('Login and Logout', async ({ page }) => {
